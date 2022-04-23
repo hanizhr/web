@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        {%for post in file%}
+        <h2>{{post.title}}</h2>
+        <a href="{{post.adminupload.url}}" download="{{post.adminupload.url}}">Download</a>
+        {% endfor %}
+    </body>
+</html>
