@@ -19,15 +19,11 @@ from django.urls import path
 from download import views
 from django.conf import settings
 from django.conf.urls.static import static
-#from django.conf.urls import IncludedURLConf
 from django.views.static import serve
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name ='home'),
-    #url(regex='^download/(?P<path>.*)$', serve, {'documen_root':settings.MEDIA_ROOT})
-    #path('', views.download_csv, name='download_csv'),
-    
 ]+ static(settings.STATIC_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
