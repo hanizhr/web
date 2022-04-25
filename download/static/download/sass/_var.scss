@@ -1,0 +1,55 @@
+// ----------------------------- Fonts -----------------------
+//font-size
+$font-size-xxs:8px;
+$font-size-xs:12px;
+$font-size-sm:20px;
+$font-size-md:33px;
+$font-size-lg:45px;
+$font-size-xl:54px;
+$font-size-xl-1:60px;
+$font-size-xxl:74px;
+//font-weight
+$font-weight-muted:200;
+$font-size-normal-1:300;
+$font-weight-normal-2:450;
+$font-weight-bold:750;
+//font-family
+$font-family:"vazir";
+// ----------------------- Colors ----------------------------------
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+// --------
+$color-1:#e38cb7;
+$color-2:#d6619c;
+$color-3:#633991;
+// ------------------------------- Box shadow -------------------------------
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
+$box-shadow-inset: inset 0 1px 2px rgba($black, .075);
+// -------------------  Breakpoints -------------------------
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;

@@ -1,0 +1,55 @@
+@mixin transition($transition) {
+    -moz-transition: $transition ease;
+    -o-transition: $transition ease;
+    -webkit-transition: $transition ease;
+    -ms-transition: $transition ease;
+    transition: $transition ease;
+}
+
+@mixin inline-block() {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+@mixin flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin flex() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flexwrap() {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+
+@mixin media-min($min-size) {
+    @media(min-width: $min-size) {
+        @content;
+    }
+}
+
+@mixin media-max($max-size) {
+    @media(min-width: $max-size) {
+        @content;
+    }
+}
