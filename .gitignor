@@ -1,1 +1,3 @@
-media_cdn/ db.sqlite3/ download/static/images/
+media_cdn/ 
+db.sqlite3/ 
+download/static/images/
